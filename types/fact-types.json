@@ -147,7 +147,9 @@
           "hash",
           "ipv4",
           "ipv6",
-          "location",
+          "country",
+          "region",
+          "subRegion",
           "mutex",
           "organization",
           "person",
@@ -166,24 +168,14 @@
     "objectBindings": [
       {
         "destinationObjectType": [
-          "location",
+          "country",
+          "region",
+          "subRegion",
           "sector"
         ],
         "sourceObjectType": [
           "campaign",
           "threatActor"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "type",
-    "objectBindings": [
-      {
-        "sourceObjectType": [
-          "location",
-          "ipv4",
-          "ipv6"
         ]
       }
     ]
