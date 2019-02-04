@@ -79,20 +79,20 @@
         "sourceObjectType": "person"
       },
       {
-        "destinationObjectType": "ipv4",
+        "destinationObjectType": "ipv4Network",
+        "sourceObjectType": "ipv4"
+      },
+      {
+        "destinationObjectType": "asn",
         "sourceObjectType": "ipv4Network"
       },
       {
-        "destinationObjectType": "ipv4Network",
-        "sourceObjectType": "asn"
-      },
-      {
-        "destinationObjectType": "country",
-        "sourceObjectType": "subRegion"
-      },
-      {
         "destinationObjectType": "subRegion",
-        "sourceObjectType": "region"
+        "sourceObjectType": "country"
+      },
+      {
+        "destinationObjectType": "region",
+        "sourceObjectType": "subRegion"
       }
     ]
   },
