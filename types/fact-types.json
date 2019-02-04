@@ -63,7 +63,7 @@
     "objectBindings": [
       {
         "destinationObjectType": "country",
-        "sourceObjectType": "asn"
+        "sourceObjectType": "organization"
       },
       {
         "destinationObjectType": "country",
