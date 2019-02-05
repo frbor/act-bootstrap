@@ -79,6 +79,10 @@
         "sourceObjectType": "person"
       },
       {
+        "destinationObjectType": "sector",
+        "sourceObjectType": "organization"
+      },
+      {
         "destinationObjectType": "ipv4Network",
         "sourceObjectType": "ipv4"
       },
@@ -174,8 +178,7 @@
           "sector"
         ],
         "sourceObjectType": [
-          "campaign",
-          "threatActor"
+          "campaign"
         ]
       }
     ]
