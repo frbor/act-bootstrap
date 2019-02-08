@@ -160,10 +160,10 @@
     "name": "mentions",
     "objectBindings": [
       {
-        "destinationObjectType": [
+        "sourceObjectType": [
           "report"
         ],
-        "sourceObjectType": [
+        "destinationObjectType": [
           "campaign",
           "certificate",
           "email",
