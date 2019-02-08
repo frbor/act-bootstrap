@@ -160,9 +160,6 @@
     "name": "mentions",
     "objectBindings": [
       {
-        "sourceObjectType": [
-          "report"
-        ],
         "destinationObjectType": [
           "campaign",
           "certificate",
@@ -183,6 +180,9 @@
           "uri",
           "userAgent",
           "vulnerability"
+        ],
+        "sourceObjectType": [
+          "report"
         ]
       }
     ]
