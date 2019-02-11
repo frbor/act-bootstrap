@@ -109,8 +109,8 @@
         "sourceObjectType": "technique"
       },
       {
-        "destinationObjectType": "tool",
-        "sourceObjectType": "procedure"
+        "destinationObjectType": "procedure",
+        "sourceObjectType": "tool"
       }
     ]
   },
