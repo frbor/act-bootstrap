@@ -255,6 +255,7 @@
         ],
         "sourceObjectType": [
           "certificate",
+          "credential",
           "procedure",
           "uri",
           "hash"
