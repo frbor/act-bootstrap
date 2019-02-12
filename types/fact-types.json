@@ -106,10 +106,6 @@
       },
       {
         "destinationObjectType": "technique",
-        "sourceObjectType": "procedure"
-      },
-      {
-        "destinationObjectType": "procedure",
         "sourceObjectType": "tool"
       }
     ]
@@ -256,7 +252,7 @@
         "sourceObjectType": [
           "certificate",
           "credential",
-          "procedure",
+          "technique",
           "uri",
           "hash"
         ]
