@@ -12,6 +12,9 @@
     "name": "certificate"
   },
   {
+    "name": "content"
+  },
+  {
     "name": "country"
   },
   {

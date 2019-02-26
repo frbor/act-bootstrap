@@ -1,5 +1,14 @@
 [
   {
+    "name": "accomplishes",
+    "objectBindings": [
+      {
+        "destinationObjectType": "tactic",
+        "sourceObjectType": "technique"
+      }
+    ]
+  },
+  {
     "name": "alias",
     "objectBindings": [
       {
@@ -11,6 +20,15 @@
         "bidirectional": true,
         "destinationObjectType": "tool",
         "sourceObjectType": "tool"
+      }
+    ]
+  },
+  {
+    "name": "at",
+    "objectBindings": [
+      {
+        "destinationObjectType": "uri",
+        "sourceObjectType": "content"
       }
     ]
   },
@@ -38,11 +56,19 @@
     ]
   },
   {
+    "name": "basename",
+    "objectBindings": [
+      {
+        "sourceObjectType": "path"
+      }
+    ]
+  },
+  {
     "name": "classifiedAs",
     "objectBindings": [
       {
         "destinationObjectType": "tool",
-        "sourceObjectType": "hash"
+        "sourceObjectType": "content"
       }
     ]
   },
@@ -52,13 +78,13 @@
       {
         "destinationObjectType": "uri",
         "sourceObjectType": [
+          "credential",
           "fqdn",
           "ipv4",
           "ipv6",
           "path",
-          "username",
-          "credential",
-          "query"
+          "query",
+          "username"
         ]
       },
       {
@@ -75,16 +101,7 @@
     "objectBindings": [
       {
         "destinationObjectType": "uri",
-        "sourceObjectType": "hash"
-      }
-    ]
-  },
-  {
-    "name": "downloadedFrom",
-    "objectBindings": [
-      {
-        "destinationObjectType": "uri",
-        "sourceObjectType": "hash"
+        "sourceObjectType": "content"
       }
     ]
   },
@@ -100,10 +117,6 @@
   {
     "name": "implements",
     "objectBindings": [
-      {
-        "destinationObjectType": "tactic",
-        "sourceObjectType": "technique"
-      },
       {
         "destinationObjectType": "technique",
         "sourceObjectType": "tool"
@@ -196,6 +209,23 @@
     "validator": "(.|\\n)+"
   },
   {
+    "name": "observedIn",
+    "objectBindings": [
+      {
+        "destinationObjectType": [
+          "incident"
+        ],
+        "sourceObjectType": [
+          "certificate",
+          "credential",
+          "technique",
+          "uri",
+          "content"
+        ]
+      }
+    ]
+  },
+  {
     "name": "owns",
     "objectBindings": [
       {
@@ -221,6 +251,15 @@
     "validator": "^[0-9]{1,5}$"
   },
   {
+    "name": "represents",
+    "objectBindings": [
+      {
+        "destinationObjectType": "content",
+        "sourceObjectType": "hash"
+      }
+    ]
+  },
+  {
     "name": "resolvesTo",
     "objectBindings": [
       {
@@ -241,23 +280,6 @@
       }
     ],
     "validator": "^[a-z][a-z\\d+-.]*$"
-  },
-  {
-    "name": "seenIn",
-    "objectBindings": [
-      {
-        "destinationObjectType": [
-          "incident"
-        ],
-        "sourceObjectType": [
-          "certificate",
-          "credential",
-          "technique",
-          "uri",
-          "hash"
-        ]
-      }
-    ]
   },
   {
     "name": "targets",
