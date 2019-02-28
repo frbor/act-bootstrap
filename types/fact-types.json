@@ -106,15 +106,6 @@
     ]
   },
   {
-    "name": "externalLink",
-    "objectBindings": [
-      {
-        "destinationObjectType": "report",
-        "sourceObjectType": "uri"
-      }
-    ]
-  },
-  {
     "name": "implements",
     "objectBindings": [
       {
@@ -280,6 +271,17 @@
       }
     ],
     "validator": "^[a-z][a-z\\d+-.]*$"
+  },
+  {
+    "name": "sinkhole",
+    "objectBindings": [
+      {
+        "sourceObjectType": [
+          "ipv4",
+          "ipv6"
+        ]
+      }
+    ]
   },
   {
     "name": "targets",
